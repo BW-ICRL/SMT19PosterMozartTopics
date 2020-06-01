@@ -635,4 +635,4 @@ def update_network(sonatas=None):
     return getElements(sonatas)
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True,host='127.0.0.1')
