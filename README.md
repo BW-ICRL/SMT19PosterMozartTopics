@@ -23,11 +23,16 @@ This dash app displays a variety of information related to the use of Topics in 
 ## Data File Description
 The primary data analysis of the first movements of these selected Mozart piano sonatas can be found in the file assets/Movement1ExtractedDataWithSecondaryTopics.xlsx Here is a partial description of the columns of this data:
 
-Sonata--K number for the sonata (e.g., K279-1 indicates movement of of sonata K279)<br>
-Indetifier--A label for the measures being analyzed (e.g., K279-1[1-4] refers to measures 1-4 of movement 1 of K279)<br>
-Part--Indicates the part (section) of the movement: expostion (e), development, and recapitulation (r) along with primary, transition, secondary, and closing where applicable<br>
-starting measure--The beginning measure number of this chunk being analyzed<br>
-ending measure--The ending measure number of the chunk being analyzed<br>
-Topic--The primary topic illustrated in this particular chunk<br>
-Secondary Topic--If a secondary topic is present, this column lists that secondary topic<br>
-weighting--If there is an identified secondary topic, how dominant is each part: 
+- Sonata--K number for the sonata (e.g., K279-1 indicates movement of of sonata K279)<br>
+- Indetifier--A label for the measures being analyzed (e.g., K279-1[1-4] refers to measures 1-4 of movement 1 of K279)<br>
+- Part--Indicates the part (section) of the movement: expostion (e), development, and recapitulation (r) along with primary, transition, secondary, and closing where applicable<br>
+- starting measure--The beginning measure number of this chunk being analyzed<br>
+- ending measure--The ending measure number of the chunk being analyzed<br>
+- Topic--The primary topic illustrated in this particular chunk<br>
+- Secondary Topic--If a secondary topic is present, this column lists that secondary topic<br>
+- weighting--How dominant is each topic (primary and secondary): 
+  - 'a' 100% Primary
+  - 'b' 70% Primary 30% Secondary 
+  - 'c' 50% Primary 50% Secondary
+- length--how long, in measures, is this chunk<br>
+- The remaining columns are a variety of features extracted from each chunk using the [Music21](https://web.mit.edu/music21/) feature extractors [native](https://web.mit.edu/music21/doc/moduleReference/moduleFeaturesNative.html) and [jSymbolic](https://web.mit.edu/music21/doc/moduleReference/moduleFeaturesJSymbolic.html)
