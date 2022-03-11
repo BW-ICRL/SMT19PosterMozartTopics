@@ -1,7 +1,7 @@
 # Musical Topics in Mozart’s Piano Sonatas: A Data Science Approach
 ## An Interactive Poster Presented at [SMT19](https://societymusictheory.org/archives/events/meeting2019)
 
-This is a dash-based poster that we used to present our work to the Society of Music Theory 2019 meeting in Columbus, Ohio
+This is a dash-based poster that we (Jessica Narum and Andrew Watkins) used to present our work to the Society of Music Theory 2019 meeting in Columbus, Ohio
 
 ## Getting Started
 Clone the git repository, then install the requirements with pip
