@@ -23,7 +23,7 @@ This dash app displays a variety of information related to the use of Topics in 
 ## Data File Description
 The primary data analysis of the first movements of these selected Mozart piano sonatas can be found in the file assets/Movement1ExtractedDataWithSecondaryTopics.xlsx Here is a partial description of the columns of this data:
 
-- Sonata--K number for the sonata (e.g., K279-1 indicates movement of of sonata K279)<br>
+- Sonata--K number for the sonata (e.g., K279-1 indicates movement one of sonata K279)<br>
 - Indetifier--A label for the measures being analyzed (e.g., K279-1[1-4] refers to measures 1-4 of movement 1 of K279)<br>
 - Part--Indicates the part (section) of the movement: expostion (e), development, and recapitulation (r) along with primary, transition, secondary, and closing where applicable<br>
 - starting measure--The beginning measure number of this chunk being analyzed<br>
